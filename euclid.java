@@ -22,6 +22,7 @@ public class euclid {
 			double fx = sc.nextDouble();
 			double fy = sc.nextDouble();
 			
+			//The below is dumb don't add up points.
 			checkbreak = ax+ay+bx+by+cx+cy+dx+dy+ex+ey+fx+fy;
 			
 			if (checkbreak < 1e-9) {
